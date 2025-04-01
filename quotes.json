@@ -1,194 +1,386 @@
 [
-    {
-        "text": "The only thing we have to fear is fear itself.",
-        "author": "Franklin D. Roosevelt"
-    },
-    {
-        "text": "That's one small step for man, one giant leap for mankind.",
-        "author": "Neil Armstrong"
-    },
-    {
-        "text": "Injustice anywhere is a threat to justice everywhere.",
-        "author": "Martin Luther King Jr."
-    },
-    {
-        "text": "I think, therefore I am.",
-        "author": "René Descartes"
-    },
-    {
-        "text": "The journey of a thousand miles begins with one step.",
-        "author": "Lao Tzu"
-    },
-    {
-        "text": "Give me liberty, or give me death!",
-        "author": "Patrick Henry"
-    },
-    {
-        "text": "An eye for an eye only ends up making the whole world blind.",
-        "author": "Mahatma Gandhi"
-    },
-    {
-        "text": "Do what you can, with what you have, where you are.",
-        "author": "Theodore Roosevelt"
-    },
-    {
-        "text": "Well done is better than well said.",
-        "author": "Benjamin Franklin"
-    },
-    {
-        "text": "Happiness depends upon ourselves.",
-        "author": "Aristotle"
-    },
-    {
-        "text": "The weak can never forgive. Forgiveness is the attribute of the strong.",
-        "author": "Mahatma Gandhi"
-    },
-    {
-        "text": "I came, I saw, I conquered.",
-        "author": "Julius Caesar"
-    },
-    {
-        "text": "All that we are is the result of what we have thought.",
-        "author": "Buddha"
-    },
-    {
-        "text": "Knowledge is power.",
-        "author": "Francis Bacon"
-    },
-    {
-        "text": "The only true wisdom is in knowing you know nothing.",
-        "author": "Socrates"
-    },
-    {
-        "text": "A house divided against itself cannot stand.",
-        "author": "Abraham Lincoln"
-    },
-    {
-        "text": "History will be kind to me for I intend to write it.",
-        "author": "Winston Churchill"
-    },
-    {
-        "text": "Speak softly and carry a big stick.",
-        "author": "Theodore Roosevelt"
-    },
-    {
-        "text": "The way to get started is to quit talking and begin doing.",
-        "author": "Walt Disney"
-    },
-    {
-        "text": "It always seems impossible until it is done.",
-        "author": "Nelson Mandela"
-    },
-    {
-        "text": "Do what you feel in your heart to be right – for you’ll be criticized anyway.",
-        "author": "Eleanor Roosevelt"
-    },
-    {
-        "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
-        "author": "Aristotle"
-    },
-    {
-        "text": "Opportunities multiply as they are seized.",
-        "author": "Sun Tzu"
-    },
-    {
-        "text": "Act as if what you do makes a difference. It does.",
-        "author": "William James"
-    },
-    {
-        "text": "Life is really simple, but we insist on making it complicated.",
-        "author": "Confucius"
-    },
-    {
-        "text": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
-        "author": "Buddha"
-    },
-    {
-        "text": "It is not length of life, but depth of life.",
-        "author": "Ralph Waldo Emerson"
-    },
-    {
-        "text": "He who opens a school door, closes a prison.",
-        "author": "Victor Hugo"
-    },
-    {
-        "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-        "author": "Winston Churchill"
-    },
-    {
-        "text": "Turn your wounds into wisdom.",
-        "author": "Oprah Winfrey"
-    },
-    {
-        "text": "It is not enough to win a war; it is more important to organize the peace.",
-        "author": "Aristotle"
-    },
-    {
-        "text": "Do what you love and you will never work a day in your life.",
-        "author": "Confucius"
-    },
-    {
-        "text": "No one can make you feel inferior without your consent.",
-        "author": "Eleanor Roosevelt"
-    },
-    {
-        "text": "Without music, life would be a mistake.",
-        "author": "Friedrich Nietzsche"
-    },
-    {
-        "text": "Life is a flower of which love is the honey.",
-        "author": "Victor Hugo"
-    },
-    {
-        "text": "Tact is the ability to describe others as they see themselves.",
-        "author": "Abraham Lincoln"
-    },
-    {
-        "text": "The supreme art of war is to subdue the enemy without fighting.",
-        "author": "Sun Tzu"
-    },
-    {
-        "text": "Courage is resistance to fear, mastery of fear – not absence of fear.",
-        "author": "Mark Twain"
-    },
-    {
-        "text": "The ballot is stronger than the bullet.",
-        "author": "Abraham Lincoln"
-    },
-    {
-        "text": "If you want peace, work for justice.",
-        "author": "Pope Paul VI"
-    },
-    {
-        "text": "Happiness is not something ready made. It comes from your own actions.",
-        "author": "Dalai Lama"
-    },
-    {
-        "text": "If you would be loved, love and be lovable.",
-        "author": "Benjamin Franklin"
-    },
-    {
-        "text": "Nothing is impossible, the word itself says ‘I’m possible’!",
-        "author": "Audrey Hepburn"
-    },
-    {
-        "text": "Everything you can imagine is real.",
-        "author": "Pablo Picasso"
-    },
-    {
-        "text": "A leader is one who knows the way, goes the way, and shows the way.",
-        "author": "John C. Maxwell"
-    },
-    {
-        "text": "Learning never exhausts the mind.",
-        "author": "Leonardo da Vinci"
-    },
-    {
-        "text": "Believe you can and you’re halfway there.",
-        "author": "Theodore Roosevelt"
-    },
-    {
-        "text": "If you don’t like the road you’re walking, start paving another one.",
-        "author": "Dolly Parton"
+  {
+    "model": "quotes.quote",
+    "pk": 1,
+    "fields": {
+      "text": "The only thing we have to fear is fear itself.",
+      "author": "Franklin D. Roosevelt"
     }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 2,
+    "fields": {
+      "text": "That's one small step for man, one giant leap for mankind.",
+      "author": "Neil Armstrong"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 3,
+    "fields": {
+      "text": "Injustice anywhere is a threat to justice everywhere.",
+      "author": "Martin Luther King Jr."
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 4,
+    "fields": {
+      "text": "I think, therefore I am.",
+      "author": "René Descartes"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 5,
+    "fields": {
+      "text": "The journey of a thousand miles begins with one step.",
+      "author": "Lao Tzu"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 6,
+    "fields": {
+      "text": "Give me liberty, or give me death!",
+      "author": "Patrick Henry"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 7,
+    "fields": {
+      "text": "An eye for an eye only ends up making the whole world blind.",
+      "author": "Mahatma Gandhi"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 8,
+    "fields": {
+      "text": "Do what you can, with what you have, where you are.",
+      "author": "Theodore Roosevelt"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 9,
+    "fields": {
+      "text": "Well done is better than well said.",
+      "author": "Benjamin Franklin"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 10,
+    "fields": {
+      "text": "Happiness depends upon ourselves.",
+      "author": "Aristotle"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 11,
+    "fields": {
+      "text": "The weak can never forgive. Forgiveness is the attribute of the strong.",
+      "author": "Mahatma Gandhi"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 12,
+    "fields": {
+      "text": "I came, I saw, I conquered.",
+      "author": "Julius Caesar"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 13,
+    "fields": {
+      "text": "All that we are is the result of what we have thought.",
+      "author": "Buddha"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 14,
+    "fields": {
+      "text": "Knowledge is power.",
+      "author": "Francis Bacon"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 15,
+    "fields": {
+      "text": "The only true wisdom is in knowing you know nothing.",
+      "author": "Socrates"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 16,
+    "fields": {
+      "text": "A house divided against itself cannot stand.",
+      "author": "Abraham Lincoln"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 17,
+    "fields": {
+      "text": "History will be kind to me for I intend to write it.",
+      "author": "Winston Churchill"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 18,
+    "fields": {
+      "text": "Speak softly and carry a big stick.",
+      "author": "Theodore Roosevelt"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 19,
+    "fields": {
+      "text": "The way to get started is to quit talking and begin doing.",
+      "author": "Walt Disney"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 20,
+    "fields": {
+      "text": "It always seems impossible until it is done.",
+      "author": "Nelson Mandela"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 21,
+    "fields": {
+      "text": "Do what you feel in your heart to be right – for you’ll be criticized anyway.",
+      "author": "Eleanor Roosevelt"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 22,
+    "fields": {
+      "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+      "author": "Aristotle"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 23,
+    "fields": {
+      "text": "Opportunities multiply as they are seized.",
+      "author": "Sun Tzu"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 24,
+    "fields": {
+      "text": "Act as if what you do makes a difference. It does.",
+      "author": "William James"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 25,
+    "fields": {
+      "text": "Life is really simple, but we insist on making it complicated.",
+      "author": "Confucius"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 26,
+    "fields": {
+      "text": "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+      "author": "Buddha"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 27,
+    "fields": {
+      "text": "It is not length of life, but depth of life.",
+      "author": "Ralph Waldo Emerson"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 28,
+    "fields": {
+      "text": "He who opens a school door, closes a prison.",
+      "author": "Victor Hugo"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 29,
+    "fields": {
+      "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+      "author": "Winston Churchill"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 30,
+    "fields": {
+      "text": "Turn your wounds into wisdom.",
+      "author": "Oprah Winfrey"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 31,
+    "fields": {
+      "text": "It is not enough to win a war; it is more important to organize the peace.",
+      "author": "Aristotle"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 32,
+    "fields": {
+      "text": "Do what you love and you will never work a day in your life.",
+      "author": "Confucius"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 33,
+    "fields": {
+      "text": "No one can make you feel inferior without your consent.",
+      "author": "Eleanor Roosevelt"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 34,
+    "fields": {
+      "text": "Without music, life would be a mistake.",
+      "author": "Friedrich Nietzsche"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 35,
+    "fields": {
+      "text": "Life is a flower of which love is the honey.",
+      "author": "Victor Hugo"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 36,
+    "fields": {
+      "text": "Tact is the ability to describe others as they see themselves.",
+      "author": "Abraham Lincoln"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 37,
+    "fields": {
+      "text": "The supreme art of war is to subdue the enemy without fighting.",
+      "author": "Sun Tzu"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 38,
+    "fields": {
+      "text": "Courage is resistance to fear, mastery of fear – not absence of fear.",
+      "author": "Mark Twain"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 39,
+    "fields": {
+      "text": "The ballot is stronger than the bullet.",
+      "author": "Abraham Lincoln"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 40,
+    "fields": {
+      "text": "If you want peace, work for justice.",
+      "author": "Pope Paul VI"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 41,
+    "fields": {
+      "text": "Happiness is not something ready made. It comes from your own actions.",
+      "author": "Dalai Lama"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 42,
+    "fields": {
+      "text": "If you would be loved, love and be lovable.",
+      "author": "Benjamin Franklin"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 43,
+    "fields": {
+      "text": "Nothing is impossible, the word itself says ‘I’m possible’!",
+      "author": "Audrey Hepburn"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 44,
+    "fields": {
+      "text": "Everything you can imagine is real.",
+      "author": "Pablo Picasso"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 45,
+    "fields": {
+      "text": "A leader is one who knows the way, goes the way, and shows the way.",
+      "author": "John C. Maxwell"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 46,
+    "fields": {
+      "text": "Learning never exhausts the mind.",
+      "author": "Leonardo da Vinci"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 47,
+    "fields": {
+      "text": "Believe you can and you’re halfway there.",
+      "author": "Theodore Roosevelt"
+    }
+  },
+  {
+    "model": "quotes.quote",
+    "pk": 48,
+    "fields": {
+      "text": "If you don’t like the road you’re walking, start paving another one.",
+      "author": "Dolly Parton"
+    }
+  }
 ]
