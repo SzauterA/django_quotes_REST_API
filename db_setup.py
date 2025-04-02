@@ -31,7 +31,6 @@ def create_database():
 
     cursor.execute(f"GRANT ALL PRIVILEGES ON DATABASE {TARGET_DB} TO {APP_USER}")
 
-    # 🔧 Switch to the target DB to create the schema if needed
     cursor.execute(f"SELECT pg_terminate_backend(pid) FROM pg_stat_activity WHERE datname = '{TARGET_DB}' AND pid <> pg_backend_pid()")
     cursor.close()
     conn.close()
@@ -46,7 +45,6 @@ def create_database():
     conn.autocommit = True
     cursor = conn.cursor()
 
-    # ✅ Create public schema if missing
     cursor.execute("CREATE SCHEMA IF NOT EXISTS public")
     cursor.execute(f"GRANT USAGE ON SCHEMA public TO {APP_USER}")
     cursor.execute(f"GRANT CREATE ON SCHEMA public TO {APP_USER}")
